@@ -1,3 +1,7 @@
 .header {
-  background: red;
+  padding: 32px;
+}
+
+.title {
+  margin: 0;
 }
