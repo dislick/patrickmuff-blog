@@ -1,12 +1,17 @@
+:root {
+  --spacing: 1.0875rem;
+  --author-image-size: 150px;
+}
+
 .header {
-  padding-top: 1.0875rem;
+  padding-top: var(--spacing);
   display: flex;
   flex-direction: column;
 }
 
 .about {
   flex: 1 1 auto;
-  padding-top: 1.0875rem;
+  padding-top: var(--spacing);
 }
 
 @media (min-width: 350px) {
@@ -15,7 +20,7 @@
   }
   .about {
     padding-top: 0;
-    padding-left: 1.0875rem;
+    padding-left: var(--spacing);
   }
 }
 
@@ -28,10 +33,10 @@
 }
 
 .authorContainer {
-  flex: 0 0 150px;
+  flex: 0 0 var(--author-image-size);
 }
 
 .author {
   border-radius: 5px;
-  max-width: 150px;
+  max-width: var(--author-image-size);
 }
