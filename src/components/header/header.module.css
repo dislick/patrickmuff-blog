@@ -26,10 +26,12 @@
 
 .title {
   margin: 0;
+  font-weight: 600;
 }
 
-.subtitle {
+.aboutText {
   margin: 8px 0;
+  line-height: 1.5em;
 }
 
 .authorContainer {
@@ -39,4 +41,10 @@
 .author {
   border-radius: 5px;
   max-width: var(--author-image-size);
+}
+
+.divider {
+  border-top: 1px dashed #e0e0e0;
+  border-bottom: none;
+  margin: var(--spacing) 0;
 }
