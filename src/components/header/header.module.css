@@ -1,6 +1,6 @@
 :root {
   --spacing: 1.0875rem;
-  --author-image-size: 150px;
+  --author-image-size: 9em;
 }
 
 .header {
@@ -30,7 +30,7 @@
 }
 
 .aboutText {
-  margin: 8px 0;
+  margin: 0.5em 0;
   line-height: 1.5em;
 }
 
