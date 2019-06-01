@@ -1,7 +1,22 @@
 .header {
-  padding: 32px 0;
+  padding-top: 1.0875rem;
+  display: flex;
+}
+
+.about {
+  flex: 1 1 auto;
+  padding-left: 1.0875rem;
 }
 
 .title {
   margin: 0;
+}
+
+.subtitle {
+  margin: 8px 0;
+}
+
+.author {
+  width: 150px;
+  border-radius: 5px;
 }

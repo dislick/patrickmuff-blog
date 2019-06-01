@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Patrick Muff - Blog`,
+    title: `Patrick Muff`,
     description: `Personal blog of Patrick Muff`,
   },
   plugins: [
@@ -30,4 +30,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

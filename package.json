@@ -20,6 +20,9 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "babel-preset-gatsby": "^0.1.11",
+    "jest": "^24.8.0",
     "prettier": "^1.17.1"
   },
   "keywords": [
@@ -32,7 +35,8 @@
     "format": "prettier --write src/**/*.{js,jsx,css}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -40,5 +44,18 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "jest": {
+    "rootDir": "src",
+    "transform": {
+      "^.+\\.jsx?$": "../jest-preprocess.js"
+    },
+    "testPathIgnorePatterns": [
+      "node_modules",
+      ".cache"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(gatsby)/)"
+    ]
   }
 }
