@@ -8,7 +8,7 @@ import { getAge } from './get_age/get_age';
 const Header = ({ siteTitle }) => (
   <header>
     <div className={styles.header}>
-      <Link to='/'>
+      <Link to='/' className={styles.authorContainer}>
         <AuthorImage className={styles.author} />
       </Link>
       <div className={styles.about}>

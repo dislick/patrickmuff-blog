@@ -1,11 +1,22 @@
 .header {
   padding-top: 1.0875rem;
   display: flex;
+  flex-direction: column;
 }
 
 .about {
   flex: 1 1 auto;
-  padding-left: 1.0875rem;
+  padding-top: 1.0875rem;
+}
+
+@media (min-width: 350px) {
+  .header {
+    flex-direction: row;
+  }
+  .about {
+    padding-top: 0;
+    padding-left: 1.0875rem;
+  }
 }
 
 .title {
@@ -16,7 +27,11 @@
   margin: 8px 0;
 }
 
+.authorContainer {
+  flex: 0 0 150px;
+}
+
 .author {
-  width: 150px;
   border-radius: 5px;
+  max-width: 150px;
 }
