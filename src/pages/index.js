@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
           <div key={node.fields.slug} className={styles.entry}>
             <p className={styles.date}>{node.frontmatter.date}</p>
             <h3 className={styles.heading}>
-              <Link to={'blog' + node.fields.slug}>{title}</Link>
+              <Link to={'/blog' + node.fields.slug}>{title}</Link>
             </h3>
             <p
               dangerouslySetInnerHTML={{
