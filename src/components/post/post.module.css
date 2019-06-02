@@ -18,3 +18,15 @@
 .content p {
   line-height: 1.5em;
 }
+
+.content blockquote {
+  border-left: 3px solid rgba(0, 0, 0, 0.84);
+  padding-left: 20px;
+  margin-left: -23px;
+  padding-bottom: 2px;
+  font-style: italic;
+}
+
+.content blockquote p {
+  margin: 0;
+}

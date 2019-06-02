@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import Header from '../header/header';
 
+import 'prismjs/themes/prism-tomorrow.css';
 import 'typeface-roboto-mono';
 import 'normalize.css';
 import './layout.css';
