@@ -39,7 +39,7 @@
 .divider {
   border-top: 1px dashed #e0e0e0;
   border-bottom: none;
-  margin: calc(var(--spacing) * 2) 0;
+  margin: var(--spacing) 0 calc(var(--spacing) * 2) 0;
 }
 
 @media (min-width: 400px) {
