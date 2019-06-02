@@ -1,6 +1,5 @@
 :root {
   --spacing: 1.0875rem;
-  --author-image-size: 9em;
 }
 
 .header {
@@ -17,8 +16,8 @@
 
 .title {
   margin: 0;
-  font-size: 1.8em;
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 .aboutText {
@@ -27,12 +26,12 @@
 }
 
 .authorContainer {
-  flex: 0 0 var(--author-image-size);
+  flex: 0 0 9em;
 }
 
 .author {
-  border-radius: 100%;
-  max-width: var(--author-image-size);
+  border-radius: 5px;
+  max-width: 9em;
   margin: auto;
 }
 
@@ -50,8 +49,5 @@
     padding-top: 0;
     padding-left: var(--spacing);
     text-align: left;
-  }
-  .author {
-    border-radius: 5px;
   }
 }
