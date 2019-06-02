@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../layout/layout';
+import SEO from '../seo';
 
 import styles from './post.module.css';
 
@@ -10,6 +11,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout>
+        <SEO title={post.frontmatter.title} />
         <p className={styles.meta}>{post.frontmatter.date}</p>
         <h1 className={styles.heading}>{post.frontmatter.title}</h1>
         <hr className={styles.contentDivider} />
