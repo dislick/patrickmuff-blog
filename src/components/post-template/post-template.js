@@ -12,6 +12,7 @@ class BlogPostTemplate extends React.Component {
       <Layout>
         <p className={styles.meta}>{post.frontmatter.date}</p>
         <h1 className={styles.heading}>{post.frontmatter.title}</h1>
+        <hr className={styles.contentDivider} />
         <div
           className={styles.content}
           dangerouslySetInnerHTML={{ __html: post.html }}

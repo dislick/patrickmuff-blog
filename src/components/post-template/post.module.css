@@ -11,8 +11,18 @@
   font-weight: 500;
 }
 
+.contentDivider {
+  width: 10%;
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin-left: 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 .content {
   font-size: 100%;
+  position: relative;
 }
 
 .content h1 {
@@ -33,4 +43,8 @@
 
 .content blockquote p {
   margin: 0;
+}
+
+.content img {
+  max-width: 100%;
 }

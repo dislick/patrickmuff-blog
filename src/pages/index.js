@@ -4,6 +4,8 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 
+import styles from './index.module.css';
+
 const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
 
@@ -13,11 +15,11 @@ const IndexPage = ({ data }) => {
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
         return (
-          <div key={node.fields.slug}>
-            <h3>
+          <div key={node.fields.slug} className={styles.entry}>
+            <p className={styles.date}>{node.frontmatter.date}</p>
+            <h3 className={styles.heading}>
               <Link to={'blog' + node.fields.slug}>{title}</Link>
             </h3>
-            <small>{node.frontmatter.date}</small>
             <p
               dangerouslySetInnerHTML={{
                 __html: node.frontmatter.description || node.excerpt,

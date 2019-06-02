@@ -1,0 +1,14 @@
+.heading {
+  font-family: 'Roboto Mono', monospace;
+  margin: var(--spacing) 0 0 0;
+}
+
+.date {
+  font-family: 'Roboto Mono', monospace;
+  color: #aaa;
+  margin: 0;
+}
+
+.entry {
+  margin-bottom: calc(var(--spacing) * 3);
+}
