@@ -3,7 +3,7 @@ import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 
 import styles from './about.module.css';
-import { deobfuscateEmail } from './email_obfuscation/email_obfuscation';
+import { deobfuscateEmail } from '../utils/email_obfuscation/email_obfuscation';
 
 const AboutPage = () => (
   <Layout>
