@@ -12,20 +12,12 @@
 .about {
   flex: 1 1 auto;
   padding-top: var(--spacing);
-}
-
-@media (min-width: 350px) {
-  .header {
-    flex-direction: row;
-  }
-  .about {
-    padding-top: 0;
-    padding-left: var(--spacing);
-  }
+  text-align: center;
 }
 
 .title {
   margin: 0;
+  font-size: 1.8em;
   font-weight: 600;
 }
 
@@ -39,12 +31,27 @@
 }
 
 .author {
-  border-radius: 5px;
+  border-radius: 100%;
   max-width: var(--author-image-size);
+  margin: auto;
 }
 
 .divider {
   border-top: 1px dashed #e0e0e0;
   border-bottom: none;
-  margin: var(--spacing) 0;
+  margin: calc(var(--spacing) * 2) 0;
+}
+
+@media (min-width: 400px) {
+  .header {
+    flex-direction: row;
+  }
+  .about {
+    padding-top: 0;
+    padding-left: var(--spacing);
+    text-align: left;
+  }
+  .author {
+    border-radius: 5px;
+  }
 }

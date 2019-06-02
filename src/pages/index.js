@@ -2,11 +2,12 @@ import React from 'react';
 
 import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
+import { Post } from '../components/post/post';
 
 const IndexPage = () => (
   <Layout>
     <SEO title='Home' />
-    <p>blog posts here</p>
+    <Post />
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

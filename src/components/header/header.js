@@ -9,9 +9,11 @@ const Header = ({ siteTitle }) => (
   <>
     <header>
       <div className={styles.header}>
-        <Link to='/' className={styles.authorContainer}>
-          <AuthorImage className={styles.author} />
-        </Link>
+        <div className={styles.authorContainer}>
+          <Link to='/'>
+            <AuthorImage className={styles.author} />
+          </Link>
+        </div>
         <div className={styles.about}>
           <h1 className={styles.title}>{siteTitle}</h1>
           <p className={styles.aboutText}>

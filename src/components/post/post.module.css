@@ -1,0 +1,20 @@
+.meta {
+  font-family: 'Roboto Mono', monospace;
+  color: #aaa;
+  margin: 2em 0 0 0;
+}
+
+.heading {
+  margin: 0.3em 0;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.content {
+  font-size: 100%;
+}
+
+.content p {
+  line-height: 1.5em;
+}
