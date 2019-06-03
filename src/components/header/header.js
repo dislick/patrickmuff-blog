@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
           <h1 className={styles.title}>{siteTitle}</h1>
           <p className={styles.aboutText}>
             {getAge(new Date(1993, 9, 1))} year old web enthusiast living in
-            Switzerland. Interested in software engineering, design and motor
+            Switzerland. Interested in software engineering, design, and motor
             racing.
           </p>
           <Link to='/about'>More about me</Link>
