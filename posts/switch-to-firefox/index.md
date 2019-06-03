@@ -15,7 +15,7 @@ The inspector tab to browse the DOM is pretty good in Firefox. I especially like
 
 ![Inspector in Firefox Dev Tools](./event_inspector.png)
 
-Another nice feature is the screenshot tool. While I love being able to `cmd+ctrl+alt+4` on macOS, having a tool included in your browser comes with the benefit of being able to quickly select elements on a web page to screenshot, which results in pixel-perfect PNGs.
+Another nice feature is the screenshot tool. While I love being able to `cmd+ctrl+shift+4` on macOS, having a tool included in your browser comes with the benefit of being able to quickly select elements on a web page to screenshot, which results in pixel-perfect PNGs.
 
 ![Firefox screenshot tool](./screenshot_tool.png)
 
