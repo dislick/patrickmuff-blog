@@ -5,7 +5,7 @@ title: 'Why I switched from Chrome to Firefox'
 description: 'Perspective of a software engineer working on the web.'
 ---
 
-When Chrome was released to the public back in 2009 I was one of the first people to ditch Firefox in favor of it. It was new, quick and did everything I wanted it to do. However last month I changed my default browser back to Firefox Quantum, mostly due to being afraid of Google's monopoly on the web, partly because of some of the nice features Firefox brings with it in its recent versions.
+When Chrome was released to the public back in 2009 I was one of the first people to ditch Firefox in favor of it. It was new, quick, and did everything I wanted it to do. However last month I changed my default browser back to Firefox Quantum, mostly due to being afraid of Google's monopoly on the web, partly because of some of the nice features Firefox brings with it in its recent versions.
 
 ![Firefox Logo](./firefox_logo.jpg)
 
@@ -19,7 +19,7 @@ Another nice feature is the screenshot tool. While I love being able to `cmd+ctr
 
 ![Firefox screenshot tool](./screenshot_tool.png)
 
-## Googles controversial Manifest V3
+## Google's controversial Manifest V3
 
 Google released the [Google Chrome Extensions Manifest V3](https://docs.google.com/document/d/1nPu6Wy4LWR66EFLeYInl3NzzhHzc-qnk4w4PX-0XMw8/edit#) back in October 2018 where they are clearly saying they are going to restrict the blocking capabilities of the `webRequest` API. This change affects content and ad blockers massively, here are a few interesting quotes regarding the topic:
 
