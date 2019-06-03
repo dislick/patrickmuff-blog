@@ -24,19 +24,33 @@
   position: relative;
 }
 
-.content h1 {
-  font-size: 1.5em;
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  margin-top: 2em;
+}
+
+.content h2 {
+  line-height: 1.5em;
 }
 
 .content p {
   line-height: 1.5em;
+  margin: 2em 0;
+}
+
+.content hr {
+  border-top: 1px dashed #e0e0e0;
+  border-bottom: none;
 }
 
 .content blockquote {
   border-left: 3px solid rgba(0, 0, 0, 0.84);
-  padding-left: 20px;
-  margin-left: -23px;
-  padding-bottom: 2px;
+  padding-left: var(--spacing);
+  margin-left: -calc(var(--spacing) + 3px);
   font-style: italic;
 }
 
