@@ -6,6 +6,9 @@
   padding-top: var(--spacing);
   display: flex;
   flex-direction: column;
+  max-width: 40rem;
+  margin: 0 auto calc(var(--spacing) * 2) auto;
+  padding: var(--spacing);
 }
 
 .about {
@@ -26,19 +29,13 @@
 }
 
 .authorContainer {
-  flex: 0 0 9em;
+  flex: 0 0 7em;
 }
 
 .author {
   border-radius: 5px;
-  max-width: 9em;
+  max-width: 7em;
   margin: auto;
-}
-
-.divider {
-  border-top: 1px dashed #e0e0e0;
-  border-bottom: none;
-  margin: var(--spacing) 0 calc(var(--spacing) * 2) 0;
 }
 
 @media (min-width: 400px) {

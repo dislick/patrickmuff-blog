@@ -25,7 +25,6 @@ const Header = ({ siteTitle }) => (
         </div>
       </div>
     </header>
-    <hr className={styles.divider} />
   </>
 );
 

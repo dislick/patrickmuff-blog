@@ -23,10 +23,12 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className={styles.layout}>
+      <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
-      </div>
+        <div className={styles.layout}>
+          <main>{children}</main>
+        </div>
+      </>
     )}
   />
 );
