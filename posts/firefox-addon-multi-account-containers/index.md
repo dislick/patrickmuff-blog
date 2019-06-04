@@ -5,7 +5,7 @@ title: 'Firefox Add-on Recommendation: Multi-Account Containers'
 description: 'Keep parts of your online life in containers for additional privacy.'
 ---
 
-As a response to my previous post [Why I switched from Chrome to Firefox](/blog/switch-to-firefox) my buddy [Yannick Fricke](https://twitter.com/YannickFricke) told me to check out the Firefox Add-on [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/).
+As a response to my previous post [Why I switched from Chrome to Firefox](/blog/switch-to-firefox) my buddy [Yannick Fricke](https://github.com/YannickFricke) told me to check out the Firefox Add-on [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/).
 
 > Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.
 
