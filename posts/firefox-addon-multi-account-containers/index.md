@@ -10,3 +10,7 @@ As a response to my previous post [Why I switched from Chrome to Firefox](/blog/
 > Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.
 
 After an initial setup phase where you create separate containers and assign websites to them, it just works and you never have to think about it again. While I am aware that it won't perfectly restrict tracking across containers, because browser fingerprinting is [almost impossible to avoid](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html) with JavaScript enabled, it sure makes it a lot harder.
+
+![Addon Screenshot](./addon.png)
+
+The **"Always open in {container}"** checkbox is what makes this add-on work as well as it does. It ensures that all links to a certain domain automatically get opened in the preferred container.
