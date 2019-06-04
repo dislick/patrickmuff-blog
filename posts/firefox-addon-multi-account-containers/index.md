@@ -2,7 +2,7 @@
 path: '/blog/firefox-addon-multi-account-containers'
 date: '2019-06-04'
 title: 'Firefox Add-on Recommendation: Multi-Account Containers'
-description: 'dope af'
+description: 'Keep parts of your online life in containers for additional privacy.'
 ---
 
 As a response to my previous post [Why I switched from Chrome to Firefox](/blog/switch-to-firefox) my buddy [Yannick Fricke](https://twitter.com/YannickFricke) told me to check out the Firefox Add-on [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/).
