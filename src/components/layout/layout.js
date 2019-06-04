@@ -26,7 +26,6 @@ const Layout = ({ children }) => (
       <div className={styles.layout}>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
-        {/* <footer>© {new Date().getFullYear()}</footer> */}
       </div>
     )}
   />
