@@ -13,3 +13,7 @@
 .entry {
   margin-bottom: calc(var(--spacing) * 3);
 }
+
+.description {
+  line-height: 1.5em;
+}

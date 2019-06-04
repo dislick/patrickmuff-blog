@@ -21,6 +21,7 @@ const IndexPage = ({ data }) => {
               <Link to={'/blog' + node.fields.slug}>{title}</Link>
             </h3>
             <p
+              className={styles.description}
               dangerouslySetInnerHTML={{
                 __html: node.frontmatter.description || node.excerpt,
               }}
