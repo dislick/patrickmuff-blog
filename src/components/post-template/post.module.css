@@ -1,6 +1,6 @@
 .meta {
   font-family: 'Roboto Mono', monospace;
-  color: #aaa;
+  color: #919191;
   margin: 2em 0 0 0;
 }
 
@@ -11,9 +11,9 @@
 }
 
 .contentDivider {
-  width: 10%;
+  width: 50px;
   border: 0;
-  border-top: 1px solid #e0e0e0;
+  border-top: 2px solid #d7d7d7;
   margin-left: 0;
   margin-top: 2em;
   margin-bottom: 2em;
