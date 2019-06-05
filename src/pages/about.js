@@ -36,11 +36,8 @@ const AboutPage = () => (
       />
 
       <p>
-        Hello! My name is Patrick, I live in Switzerland{' '}
-        <span role='img' aria-hidden>
-          🇨🇭
-        </span>{' '}
-        and am exactly <CurrentAge birthday={new Date(1993, 9, 1)} /> old.
+        Hello! My name is Patrick, I live in Switzerland and I'm exactly{' '}
+        <CurrentAge birthday={new Date(1993, 9, 1)} /> old.
       </p>
       <p>
         At around age 14 I started getting interested in programming. I was

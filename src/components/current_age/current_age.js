@@ -1,4 +1,6 @@
 import React from 'react';
+import classnames from 'classnames';
+import styles from './current_age.module.css';
 
 const secondsToYearsFraction = seconds => {
   return seconds / 60 / 60 / 24 / 365.25;
@@ -26,8 +28,10 @@ export const CurrentAge = props => {
 
   return (
     <span>
-      {age.toLocaleString()} seconds (
-      {secondsToYearsFraction(age).toFixed(1) + ' years'})
+      <span className={classnames('monospace', styles.seconds)}>
+        {age.toLocaleString()}
+      </span>{' '}
+      seconds ({secondsToYearsFraction(age).toFixed(1) + ' years'})
     </span>
   );
 };
