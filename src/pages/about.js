@@ -4,6 +4,7 @@ import styles from './about.module.css';
 import { deobfuscateEmail } from '../utils/email_obfuscation/email_obfuscation';
 import { StaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
+import { CurrentAge } from '../components/current_age/current_age';
 
 const AboutPage = () => (
   <div className={styles.container}>
@@ -34,6 +35,20 @@ const AboutPage = () => (
         )}
       />
 
+      <p>
+        Hello! My name is Patrick, I live in Switzerland{' '}
+        <span role='img' aria-hidden>
+          🇨🇭
+        </span>{' '}
+        and am exactly <CurrentAge birthday={new Date(1993, 9, 1)} /> old.
+      </p>
+      <p>
+        At around age 14 I started getting interested in programming. I was
+        playing around with Visual Basic and Windows Forms before getting
+        serious with C. Since then I have been developing software in all kinds
+        of programming languages and have been working professionally for{' '}
+        {new Date().getFullYear() - 2010} years and counting.
+      </p>
       <p>
         I am currently employed as Head of Software Engineering at{' '}
         <a href='http://muffag.ch'>Muff Kirchturmtechnik AG</a>. In my free time
