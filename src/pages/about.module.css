@@ -1,3 +1,13 @@
+.container {
+  max-width: 40rem;
+  margin: auto;
+  padding: 0px 1.0875rem 1.45rem;
+}
+
 .bio p {
   line-height: 1.4em;
+}
+
+.photo {
+  border-radius: 5px;
 }
