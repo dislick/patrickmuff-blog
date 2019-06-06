@@ -2,24 +2,20 @@ import React from 'react';
 import classnames from 'classnames';
 import styles from './current_age.module.css';
 
-const secondsToYearsFraction = seconds => {
-  return seconds / 60 / 60 / 24 / 365.25;
-};
-
-const getAgeInSeconds = birthday => {
-  return Math.round((Date.now() - birthday.getTime()) / 1000);
+const getAgeFloat = birthday => {
+  return (Date.now() - birthday.getTime()) / 1000 / 60 / 60 / 24 / 365.25;
 };
 
 /**
- * A playful component to display a persons age in seconds (and years).
+ * A playful component to display a persons age like `25.123456789`.
  */
 export const CurrentAge = props => {
-  const [age, setAge] = React.useState(getAgeInSeconds(props.birthday));
+  const [age, setAge] = React.useState(getAgeFloat(props.birthday));
 
   React.useEffect(() => {
     const interval = setInterval(() => {
-      setAge(getAgeInSeconds(props.birthday));
-    }, 1000);
+      setAge(getAgeFloat(props.birthday));
+    }, 50);
 
     return () => {
       clearInterval(interval);
@@ -27,11 +23,8 @@ export const CurrentAge = props => {
   }, [props.birthday]);
 
   return (
-    <span>
-      <span className={classnames('monospace', styles.seconds)}>
-        {age.toLocaleString()}
-      </span>{' '}
-      seconds ({secondsToYearsFraction(age).toFixed(1) + ' years'})
+    <span className={classnames('monospace', styles.root)}>
+      {age.toFixed(9)}
     </span>
   );
 };
