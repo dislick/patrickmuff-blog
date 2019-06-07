@@ -1,6 +1,6 @@
 ---
 path: '/blog/firefox-addon-dict-cc'
-date: '2019-06-07'
+date: '2019-06-07T00:00:00'
 title: 'Firefox Add-on Recommendation: Dict.cc Translation'
 description: 'Straightforward add-on for quickly translating words.'
 ---
