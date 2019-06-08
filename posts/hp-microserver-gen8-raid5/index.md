@@ -7,7 +7,7 @@ description: "It's harder than you might expect."
 
 ![Front of server](./server_front.jpg)
 
-A while ago I got a HP MicroServer Gen8 along with four 3 TB HDDs as a place to store and encode my media. When setting up the RAID with the B120i I ran into the first issue - this hardware RAID controller is only able to create RAID 0, 1 or 10 logical volumes. In order to get the desired RAID 5 I had to resort to a software-based solution.
+A while ago I got a HP MicroServer Gen8 with all four drive bays filled as a place to store and encode my media. When setting up the RAID with the B120i I ran into the first issue - this hardware RAID controller is only able to create RAID 0, 1 or 10 logical volumes. In order to get the desired RAID 5 I had to resort to a software-based solution.
 
 Since it's obviously not possible to boot from a software RAID I had to get an extra disk. At first I was using the SD card slot inside the server, though it turned out to be a horrible idea installing an OS like Ubuntu Server on it that wasn't optimized to run from an SD card. I noticed an empty SATA connector designated for the optical disk drive, went to my preferred tech website and ordered this specialized cable by Delock:
 
