@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Patrick Muff`,
     description: `Personal blog of Patrick Muff`,
+    siteUrl: 'https://patrickmuff.ch',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,6 +30,7 @@ module.exports = {
               maxWidth: 640,
               linkImagesToOriginal: false,
               quality: 70,
+              tracedSVG: true,
             },
           },
           {
@@ -57,5 +59,6 @@ module.exports = {
         icon: `src/images/patrick.jpg`,
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 };
