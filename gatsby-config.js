@@ -30,7 +30,6 @@ module.exports = {
               maxWidth: 640,
               linkImagesToOriginal: false,
               quality: 70,
-              tracedSVG: true,
             },
           },
           {
