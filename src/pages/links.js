@@ -3,26 +3,32 @@ import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 import { graphql } from 'gatsby';
 import styles from './links.module.css';
+import groupBy from 'lodash.groupby';
+import { LinkCollectionEntry } from '../components/link_collection_entry/link_collection_entry';
 
 const LinksPage = ({ data }) => {
-  const links = data.allLinksJson.nodes;
+  const groups = groupBy(data.allLinksJson.nodes, link =>
+    new Date(link.timestamp).getFullYear(),
+  );
 
   return (
     <Layout>
       <SEO title='Links' />
       <h1>Links</h1>
       <p>This is a collection of links I deemed worthy of being shared here.</p>
-      <h2>2019</h2>
-      <ul className={styles.list}>
-        {links.map((link, index) => (
-          <li key={index} className={styles.listEntry}>
-            <a href={link.url}>{link.title}</a>{' '}
-            {link.description && (
-              <span className={styles.description}>{link.description}</span>
-            )}
-          </li>
+
+      {Object.keys(groups)
+        .sort((a, b) => parseInt(b) - parseInt(a)) // sort years from new to old
+        .map(year => (
+          <div key={year}>
+            <h2>{year}</h2>
+            <ul className={styles.list}>
+              {groups[year].map((link, index) => (
+                <LinkCollectionEntry key={index} {...link} />
+              ))}
+            </ul>
+          </div>
         ))}
-      </ul>
     </Layout>
   );
 };
@@ -31,12 +37,13 @@ export default LinksPage;
 
 export const pageQuery = graphql`
   {
-    allLinksJson {
+    allLinksJson(sort: { fields: timestamp, order: DESC }) {
       nodes {
         title
         url
         timestamp
         description
+        language
       }
     }
   }

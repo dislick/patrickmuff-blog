@@ -1,19 +1,36 @@
 [
   {
-    "timestamp": "2019-06-13",
+    "timestamp": "2017-08-10",
     "url": "https://apenwarr.ca/log/20170810",
-    "title": "The world in which IPv6 was a good design"
+    "title": "The world in which IPv6 was a good design",
+    "language": "en-CA"
   },
   {
-    "timestamp": "2019-06-12",
+    "timestamp": "2019-02-23",
     "url": "https://www.youtube.com/watch?v=LIxgJbuz3Lo",
     "title": "Through the Fire and Flames: 1st time Listen and Learn: A HOT MESS",
-    "description": "Keyboard player teaches herself a rock song live on stream in under two minutes by just listening to it."
+    "description": "Keyboard player teaches herself a rock song live on stream in under two minutes just by listening to it.",
+    "language": "en-AU"
   },
   {
-    "timestamp": "2019-06-07",
+    "timestamp": "2019-06-05",
     "url": "https://blog.cryptographyengineering.com/2019/06/05/how-does-apple-privately-find-your-offline-devices/",
     "title": "How does Apple (privately) find your offline devices?",
-    "description": "Interesting article on how Apple could be solving cryptographic issues with their new \"Find My\" service."
+    "description": "Interesting article on how Apple could be solving cryptographic issues with their new \"Find My\" service.",
+    "language": "en-US"
+  },
+  {
+    "timestamp": "2018-10-18",
+    "url": "https://www.republik.ch/2018/10/18/cum-ex-files",
+    "title": "Der 55-Milliarden-Coup",
+    "description": "Ein genialer Anwalt entdeckt, wie man dem Staat Steuern wegnehmen kann, die man nie bezahlt hat. Und plündert mit Bankern und Superreichen die Staatskasse. Ein einfacher Berner Steuerbeamter kommt ihnen auf die Schliche.",
+    "language": "de-CH"
+  },
+  {
+    "timestamp": "2019-02-15",
+    "url": "https://www.republik.ch/2019/02/15/postschiff-enterprises",
+    "title": "Postschiff Enterprise",
+    "description": "Unsere Softwareentwickler wollten das E-Voting-System der Post starten. Doch der Quellcode ist offenbar nicht zu diesem Zweck veröffentlicht worden.",
+    "language": "de-CH"
   }
 ]
