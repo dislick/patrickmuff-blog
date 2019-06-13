@@ -38,6 +38,21 @@
   margin: auto;
 }
 
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  display: inline;
+}
+
+.links li:not(:last-child):after {
+  content: '|';
+  padding: 0 8px;
+  color: #919191;
+}
+
 @media (min-width: 400px) {
   .header {
     flex-direction: row;

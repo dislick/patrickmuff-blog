@@ -1,0 +1,16 @@
+.root {
+  background-color: #457d89;
+  padding: 16px 24px;
+  border-radius: 5px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.root:after {
+  content: '→';
+  float: right;
+}

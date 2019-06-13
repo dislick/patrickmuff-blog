@@ -16,10 +16,18 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/posts`,
         name: `blog`,
+        path: `${__dirname}/posts`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `links`,
+        path: `${__dirname}/links`,
+      },
+    },
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

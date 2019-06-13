@@ -21,7 +21,14 @@ const Header = ({ siteTitle }) => (
             Switzerland. Interested in software engineering, design, and motor
             racing.
           </p>
-          <Link to='/about'>More about me</Link>
+          <ul className={styles.links}>
+            <li>
+              <Link to='/about'>About Me</Link>
+            </li>
+            <li>
+              <Link to='/links'>Link Collection</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
