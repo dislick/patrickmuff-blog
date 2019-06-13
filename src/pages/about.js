@@ -41,9 +41,9 @@ const AboutPage = () => (
       </p>
       <p>
         At around age 14 I started getting interested in programming. I was
-        playing around with Visual Basic and Windows Forms before getting
-        serious with C. Since then I have been developing software in all kinds
-        of programming languages and have been working professionally for{' '}
+        playing around with Visual Basic before getting serious with C. Since
+        then I have been developing software in all kinds of programming
+        languages and have been working professionally for{' '}
         {new Date().getFullYear() - 2010} years and counting.
       </p>
       <p>
