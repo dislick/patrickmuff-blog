@@ -13,7 +13,7 @@ Since it's obviously not possible to boot from a software RAID I had to get an e
 
 ![Delock SATA cable](./delock_sata_cable.jpg)
 
-It allows me to draw power from the power chord originally intended for the ODD as you can see on this next photo:
+It allows me to draw power from the power cord originally intended for the ODD as you can see on this next photo:
 
 ![Side view of the server](./sideview.jpg)
 
