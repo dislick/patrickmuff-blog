@@ -6,7 +6,7 @@ import { StaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import { CurrentAge } from '../components/current_age/current_age';
 
-const AboutPage = () => (
+export default () => (
   <div className={styles.container}>
     <SEO title='About' />
     <p>
@@ -73,5 +73,3 @@ const AboutPage = () => (
     </div>
   </div>
 );
-
-export default AboutPage;

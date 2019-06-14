@@ -4,7 +4,7 @@ import Layout from '../components/layout/layout';
 import SEO from '../components/seo';
 import styles from './index.module.css';
 
-const IndexPage = ({ data }) => {
+export default ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
 
   return (
@@ -30,8 +30,6 @@ const IndexPage = ({ data }) => {
     </Layout>
   );
 };
-
-export default IndexPage;
 
 export const pageQuery = graphql`
   query {

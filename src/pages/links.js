@@ -6,7 +6,7 @@ import styles from './links.module.css';
 import groupBy from 'lodash.groupby';
 import { LinkCollectionEntry } from '../components/link_collection_entry/link_collection_entry';
 
-const LinksPage = ({ data }) => {
+export default ({ data }) => {
   const groups = groupBy(data.allLinksJson.nodes, link =>
     new Date(link.timestamp).getFullYear(),
   );
@@ -32,8 +32,6 @@ const LinksPage = ({ data }) => {
     </Layout>
   );
 };
-
-export default LinksPage;
 
 export const pageQuery = graphql`
   {
