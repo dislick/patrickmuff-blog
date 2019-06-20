@@ -2,7 +2,7 @@
   padding-top: var(--spacing);
   display: flex;
   flex-direction: column;
-  max-width: 40rem;
+  max-width: var(--page-width);
   margin: 0 auto calc(var(--spacing) * 2) auto;
   padding: var(--spacing);
 }
@@ -25,18 +25,19 @@
 }
 
 .authorContainer {
-  flex: 0 0 7em;
+  flex: 0 0 112px;
 }
 
 .author {
   border-radius: 5px;
-  max-width: 7em;
+  max-width: 112px;
   margin: auto;
 }
 
 .links {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .links li {

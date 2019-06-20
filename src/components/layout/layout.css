@@ -2,7 +2,8 @@
  * Global CSS
  */
 :root {
-  --spacing: 1.0875rem;
+  --spacing: 16px;
+  --page-width: 640px;
 }
 
 body {
