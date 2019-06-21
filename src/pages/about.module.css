@@ -1,11 +1,11 @@
 .container {
   max-width: var(--page-width);
   margin: auto;
-  padding: 0px var(--spacing) 1.45rem;
+  padding: 0px var(--spacing) 24px;
 }
 
 .bio p {
-  line-height: 1.4em;
+  line-height: 24px;
 }
 
 .photo {

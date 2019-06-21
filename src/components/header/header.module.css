@@ -15,13 +15,13 @@
 
 .title {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: 500;
 }
 
 .aboutText {
-  margin: 0.5em 0;
-  line-height: 1.5em;
+  margin: 8px 0;
+  line-height: 24px;
 }
 
 .authorContainer {

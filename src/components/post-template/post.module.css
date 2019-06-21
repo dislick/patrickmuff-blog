@@ -1,12 +1,12 @@
 .meta {
   font-family: 'Roboto Mono', monospace;
   color: #919191;
-  margin: 2em 0 0 0;
+  margin: 32px 0 0 0;
 }
 
 .heading {
-  margin: 0.3em 0;
-  line-height: 1.4em;
+  margin: 4px 0;
+  line-height: 46px;
   font-weight: 500;
 }
 
@@ -15,8 +15,8 @@
   border: 0;
   border-top: 2px solid #d7d7d7;
   margin-left: 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .content {
@@ -30,16 +30,16 @@
 .content h4,
 .content h5,
 .content h6 {
-  margin-top: 2em;
+  margin-top: 32px;
 }
 
 .content h2 {
-  line-height: 1.5em;
+  line-height: 24px;
 }
 
 .content p {
-  line-height: 1.5em;
-  margin: 2em 0;
+  line-height: 24px;
+  margin: 32px 0;
 }
 
 .content hr {
