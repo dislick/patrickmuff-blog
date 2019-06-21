@@ -1,10 +1,10 @@
+import { graphql } from 'gatsby';
+import groupBy from 'lodash.groupby';
 import React from 'react';
 import Layout from '../components/layout/layout';
-import SEO from '../components/seo';
-import { graphql } from 'gatsby';
-import styles from './links.module.css';
-import groupBy from 'lodash.groupby';
 import { LinkCollectionEntry } from '../components/link_collection_entry/link_collection_entry';
+import SEO from '../components/seo';
+import styles from './links.module.css';
 
 export default ({ data }) => {
   const groups = groupBy(data.allLinksJson.nodes, link =>
