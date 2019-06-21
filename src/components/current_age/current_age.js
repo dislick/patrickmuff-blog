@@ -1,5 +1,5 @@
-import React from 'react';
 import classnames from 'classnames';
+import React, { useEffect, useState } from 'react';
 import styles from './current_age.module.css';
 
 const getAgeFloat = birthday => {
@@ -10,9 +10,9 @@ const getAgeFloat = birthday => {
  * A playful component to display a persons age like `25.123456789`.
  */
 export const CurrentAge = props => {
-  const [age, setAge] = React.useState(getAgeFloat(props.birthday));
+  const [age, setAge] = useState(getAgeFloat(props.birthday));
 
-  React.useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
       setAge(getAgeFloat(props.birthday));
     }, 50);
