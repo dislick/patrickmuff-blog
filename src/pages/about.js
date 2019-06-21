@@ -1,10 +1,10 @@
-import React from 'react';
-import SEO from '../components/seo';
-import styles from './about.module.css';
-import { deobfuscateEmail } from '../utils/email_obfuscation/email_obfuscation';
-import { StaticQuery, graphql, Link } from 'gatsby';
+import { graphql, Link, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
+import React from 'react';
 import { CurrentAge } from '../components/current_age/current_age';
+import SEO from '../components/seo';
+import { deobfuscateEmail } from '../utils/email_obfuscation/email_obfuscation';
+import styles from './about.module.css';
 
 export default () => (
   <div className={styles.container}>
