@@ -1,7 +1,7 @@
 ---
 path: '/blog/hp-microserver-gen8-raid5'
 date: '2019-06-07T20:00:00'
-title: 'How I setup a RAID 5 on my HP MicroServer Gen8'
+title: 'How I set up a RAID 5 on my HP MicroServer Gen8'
 description: "It's harder than you might expect."
 ---
 
