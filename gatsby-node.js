@@ -7,27 +7,25 @@ exports.createPages = ({ graphql, actions }) => {
   const blogPost = path.resolve(
     `./src/components/post-template/post-template.js`,
   );
-  return graphql(
-    `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-              }
+  return graphql(`
+    {
+      allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: DESC }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
             }
           }
         }
       }
-    `,
-  ).then(result => {
+    }
+  `).then(result => {
     if (result.errors) {
       throw result.errors;
     }
