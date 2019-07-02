@@ -44,5 +44,12 @@
     "title": "Apollo 11 in Real-time",
     "description": "Amazing interactive web experience of the Apollo 11 mission, consisting entirely of original historical mission material.",
     "language": "en-US"
+  },
+  {
+    "timestamp": "2019-07-02",
+    "url": "https://danluu.com/branch-prediction/",
+    "title": "Branch Prediction",
+    "description": "Transcript of a talk on CPU branch-prediction which helped me to better understand the Spectre security vulnerability",
+    "language": "en-US"
   }
 ]
