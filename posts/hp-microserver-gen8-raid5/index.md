@@ -19,7 +19,7 @@ It allows me to draw power from the power cord originally intended for the ODD a
 
 The SSD is mounted _very_ professionally using double-sided tape.
 
-So the rest is basically a walk in the park, right? Yeah, no. It is not possible to boot from the ODD bay on the MicroServer Gen8. There is a workaround though, you can create a RAID 0 with only the SSD in it on the B120i and then set that logical volume as the primary boot device. This works as you would expect it to, however there is a bug in the BIOS which makes the MicroServer forget all its logical volumes after a while. So every time I need to reboot the server I have to take it out of the closet, attach a monitor and keyboard, and setup the logical volume again.
+So the rest is basically a walk in the park, right? Yeah, no. It is not possible to boot from the ODD bay on the HP MicroServer Gen8. There is a workaround though, you can create a RAID 0 with only the SSD in it on the B120i and then set that logical volume as the primary boot device. This works as you would expect it to, however there is a bug in the BIOS which makes the MicroServer forget all its logical volumes after a while. So every time I need to reboot the server I have to take it out of the closet, attach a monitor and keyboard, and setup the logical volume again.
 
 There is a way of avoiding this tedious procedure. You could setup a bootloader on an SD card pointing to the ODD bay, but since fiddling around with this machine doesn't pay my bills, I think I will stick with my RAID 0 workaround.
 
