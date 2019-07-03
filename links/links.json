@@ -49,7 +49,7 @@
     "timestamp": "2019-07-02",
     "url": "https://danluu.com/branch-prediction/",
     "title": "Branch Prediction",
-    "description": "Transcript of a talk on CPU branch-prediction which helped me to better understand the Spectre security vulnerability",
+    "description": "Transcript of a talk on CPU branch-prediction which helped me to better understand the Spectre security vulnerability.",
     "language": "en-US"
   }
 ]
