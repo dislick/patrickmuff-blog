@@ -51,5 +51,10 @@
     "title": "Branch Prediction",
     "description": "Transcript of a talk on CPU branch-prediction which helped me to better understand the Spectre security vulnerability.",
     "language": "en-US"
+  },
+  {
+    "timestamp": "2016-01-01",
+    "url": "https://wordsandbuttons.online/so_you_think_you_know_c.html",
+    "title": "So you think you know C? "
   }
 ]
