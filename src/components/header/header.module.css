@@ -47,7 +47,7 @@
 .links li:not(:last-child):after {
   content: '|';
   padding: 0 8px;
-  color: #919191;
+  color: #757575;
 }
 
 @media (min-width: 400px) {
