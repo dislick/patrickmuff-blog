@@ -13,14 +13,14 @@ Their custom motor is very quiet and delivers smooth acceleration. Even though t
 
 ![E-Bike Front View](./front.jpg)
 
-The LED strips on the front and back look gorgeous, though the light at the front is not great in really dark riding conditions. They do however include a light that's attachable to the handlebar.
+The LED strips on the front and back of the bike look gorgeous and provide greatly increased visibility. In really dark riding conditions the strip on the front does not emit enough light by itself, which is why Cowboy includes an additional headlight that is attachable to the handlebar.
 
 ![E-Bike Back View](./back.jpg)
 
-Cowboy's mobile app is very well designed and just works™️. It records the distance, duration, average speed, CO2 saved, and target location for every trip. It does not seem to record the whole tour. The data is displayed beautifully in "Trips history".
+Cowboy's mobile app is very well designed and just works️™. It records the distance, duration, average speed, CO2 saved, and target location for every trip. It does not seem to record the whole tour. The data is displayed beautifully in _Trips history_.
 
 ![Trips history screenshot](./trips_history.jpg)
 
-You get to adjust a few settings of your bike, including "Auto-off timer" (5 minutes to never) and "Speed limit" (25 km/h or 30 km/h). The most impressive part of the app is the turn-by-turn navigation system that works with OpenStreetMap data and integrates nicely with the dashboard which shows you things like your current speed, motor power output and remaining distance.
+You get to adjust a few settings of your bike, including _Auto-off timer_ (5 minutes to never) and _Speed limit_ (25 km/h or 30 km/h). The most impressive part of the app is the turn-by-turn navigation system that works with [OpenStreetMap](https://www.openstreetmap.org) data and integrates nicely with the dashboard which shows you things like your current speed, motor power output and remaining distance.
 
 I'm very happy with my purchase and look forward to biking to work much more frequently. 🤠
