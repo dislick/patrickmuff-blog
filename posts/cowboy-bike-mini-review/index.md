@@ -1,7 +1,7 @@
 ---
 path: '/blog/cowboy-e-bike-mini-review'
 date: '2019-07-25'
-title: 'Cowboy Electric Bike Mini Review'
+title: 'Cowboy Electric Bike Mini-Review'
 description: 'Quick thoughs on the Cowboy Electric Bike.'
 ---
 
