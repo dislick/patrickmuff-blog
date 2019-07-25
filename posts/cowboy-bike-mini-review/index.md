@@ -17,7 +17,7 @@ The LED strips on the front and back of the bike look gorgeous and provide great
 
 ![E-Bike Back View](./back.jpg)
 
-Cowboy's mobile app is very well designed and just works️™. It records the distance, duration, average speed, CO2 saved, and target location for every trip. It does not seem to record the whole tour. The data is displayed beautifully in _Trips history_.
+Cowboy's mobile app is very well designed and just works️™. It records the distance, duration, average speed, CO2 saved, and target location for every trip. It does not seem to record the entire way. The data is displayed beautifully in _Trips history_.
 
 ![Trips history screenshot](./trips_history.jpg)
 
