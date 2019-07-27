@@ -9,7 +9,7 @@ description: 'Quick thoughs on the Cowboy Electric Bike.'
 
 Last weekend I was able to pick up my Cowboy bike after pre-ordering it 6 weeks ago through [their website](https://cowboy.com). The bike comes fully assembled, all you have to do is attach the pedals and straighten the handlebar. All necessary tools are included and the instructions are clear. Even though the battery was almost empty there was enough juice left to pair it to my iPhone using the QR-Code printed on the back of the manual.
 
-Their custom motor is very quiet and delivers smooth acceleration. Even though the fixed gear ratio of 3.1:1 is mostly a compromise between being too small or too large for any given terrain, you can comfortably ride at around 30 km/h on straights before you have to pedal like a madman. Inclines work well too, but the bike was not designed to take on our steep hills here in Switzerland.
+Their custom motor is very quiet and delivers smooth acceleration. Even though the fixed gear ratio of 3.1:1 is mostly a compromise between being too small or too large for any given terrain, you can comfortably ride at around 30 km/h on flat straights before you have to pedal like a madman. Inclines work well too, but the bike was not designed to take on our steep hills here in Switzerland.
 
 ![E-Bike Front View](./front.jpg)
 
