@@ -61,3 +61,7 @@
 .content img {
   max-width: 100%;
 }
+
+.content li {
+  line-height: 24px;
+}
