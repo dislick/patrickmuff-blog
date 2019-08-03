@@ -23,7 +23,7 @@ I arrived at Anneau du Rhin at 08:00 in the morning. After a short briefing on w
 
 ![Ricky's Panigale](./rennleitung.jpg)
 
-The warmup session started out pretty chill, though Ricky increased the speed every lap and I found myself struggling to keep up with the group towards the end. The second session already went better because we talked about the ideal racing line and proper gears during the 40 minute break. By the end of the day I improved so much that some of the others actually had trouble keeping up with _me_, which obviously made me feel super proud.
+The warmup session started out pretty chill, though Ricky increased the speed every lap and I found myself struggling to keep up with the group towards the end. The second session already went better because we talked about the ideal racing line and proper gears during the 40 minute break. By the end of the day I improved so much that some of the others actually had troubles keeping up with _me_, which obviously made me feel super proud.
 
 ![Tires](./tires.jpg)
 
