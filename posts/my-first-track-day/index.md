@@ -7,7 +7,7 @@ description: 'I finally went to a race track with the ZX-6R.'
 
 ![Action shot](./action_shot.jpg)
 
-Some months prior to this photo I decided that I would have my first track day this year. At the end of July I took my Kawasaki ZX-6R 636 and went to [Circuit de l'Anneau du Rhin](https://www.rheinring.com/rennstrecken/rennstrecke-3-0-km/) which is the closest circuit to where I live. Thankfully I was able to borrow one of our company trucks to transport the bike. The guys even built a little ramp for me!
+Some months prior to this photo I decided that I would have my first track day this year. At the end of July I took my Kawasaki ZX-6R 636 and went to [Circuit de l'Anneau du Rhin](https://www.rheinring.com/rennstrecken/rennstrecke-3-0-km/) which is the closest circuit to where I live. Thankfully I was able to borrow one of our company trucks to transport the bike. The guys there even built a little ramp for me!
 
 ![Loading the bike in the truck](./loading.jpg)
 
