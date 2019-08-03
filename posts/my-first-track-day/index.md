@@ -27,7 +27,7 @@ The warmup session started out pretty chill, though Ricky increased the speed ev
 
 ![Tires](./tires.jpg)
 
-My tires (_Metzeler Sportec M5 Interact_) felt like they were glued to the tarmac. Next I am going to try their Racetec RR tires, just because I'm curious whether I feel a difference.
+My tires ([Metzeler Sportec M5 Interact](https://www.metzeler.com/de-de/produkte/reifen/sportec-m5-interact)) felt like they were glued to the tarmac. Next I am going to try their Racetec RR tires, just because I'm curious whether I feel a difference.
 
 We had our last session at 16:40. Even though we skipped one right before lunch due to oil on the track, I was extremely tired. The next few days I had the sorest legs you could imagine, nevertheless feeling incredibly happy.
 
