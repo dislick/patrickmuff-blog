@@ -2,7 +2,7 @@
   "name": "patrickmuff-blog",
   "private": true,
   "description": "Personal blog of Patrick Muff",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Patrick Muff <muff.pa@gmail.com>",
   "dependencies": {
     "babel-jest": "^24.8.0",
