@@ -2,7 +2,6 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import AuthorImage from '../author_image';
-import { getAge } from './get_age/get_age';
 import styles from './header.module.css';
 
 const Header = ({ siteTitle }) => (
@@ -16,9 +15,8 @@ const Header = ({ siteTitle }) => (
       <div className={styles.about}>
         <h1 className={styles.title}>{siteTitle}</h1>
         <p className={styles.aboutText}>
-          {getAge(new Date(1993, 9, 1))} year old web enthusiast living in
-          Switzerland. Interested in software engineering, design, and motor
-          racing.
+          Web professional living in Switzerland. Interested in software
+          engineering, design, and motor racing.
         </p>
         <ul className={styles.links}>
           <li>
