@@ -5,7 +5,7 @@ title: 'Taking more breaks'
 description: 'I found an app that reminds you to take breaks from your computer.'
 ---
 
-Sitting and typing on a keyboard for 10 hours a day can't be good for your health, which is why I wanted an app that reminds me to stretch my wrists and get up from the desk every now and then. Of course I could set alarms on my phone, but fixed alarms don't take natural breaks (time spent away from your computer) into account. So I went to the macOS App Store and browsed for apps that do that. And boy did I find one.
+Sitting and typing for 10 hours a day can't be good for your health, which is why I wanted an app that reminds me to stretch my wrists and get up from the desk every now and then. Of course I could set alarms on my phone, but fixed alarms don't take natural breaks (time spent away from your computer) into account. So I went to the macOS App Store and browsed for apps that do that. And boy did I find one.
 
 ![Time Out Settings Screenshot](screenshot.png)
 
