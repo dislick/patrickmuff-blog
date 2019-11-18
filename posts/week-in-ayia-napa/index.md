@@ -15,7 +15,7 @@ Autumn is off-party-season in Cyprus. The weather is still very nice with temper
 
 ![Ammos Kambouri Beach](./beaches.jpg)
 
-The beaches on the other hand are beautiful. In case you are allergic to large groups of people it is advisable to find one where there are not hotels around, like the one in the picture above. It is called Ammos Kambouri Beach and was ~1.5km away from our hotel, so we had a nice little walk there along the cliffs to the south of the island.
+The beaches on the other hand are beautiful. In case you are allergic to large groups of people it is advisable to find one where there are no hotels around, like the one in the picture above. It is called Ammos Kambouri Beach and was ~1.5km away from our hotel, so we had a nice little walk there along the cliffs to the south of the island.
 
 If you don't mind loud 250ccm two-stroke engines you should totally rent a buggy for a day. Ours only went up to ~40 km/h, but that's fine to see Cape Greco. When you're there, make sure to visit cavo greco environmental center which has an amazing exhibition showing the islands vegetation and animal life.
 
