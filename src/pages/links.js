@@ -15,8 +15,6 @@ export default ({ data }) => {
     <Layout>
       <SEO title='Links' />
       <h1>Links</h1>
-      <p>This is a collection of links I deemed worthy of being shared here.</p>
-
       {Object.keys(groups)
         .sort((a, b) => parseInt(b) - parseInt(a)) // sort years from new to old
         .map(year => (
