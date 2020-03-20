@@ -2,7 +2,7 @@
 path: '/blog/warpping-up-the-2010s-in-sunshine-state'
 date: '2020-01-09'
 title: 'Wrapping up the 2010s in Sunshine State'
-description: 'Photos from our trip to the Florida in 2019/2020.'
+description: 'Photos from our trip to Florida in 2019/2020.'
 ---
 
 We decided to spend Christmas and NYE in Florida, USA! Our flight was leaving on December 23rd from Zürich and included a layover in Chicago before finally arriving in Miami. By then it was already 10 pm so we spent the first night in a hotel close by the airport. The next day we took an Uber to MIA Rental Car Center and picked up a car that I always thought was super cool ever since watching _The Fast and The Furious_ as a kid.
