@@ -97,6 +97,6 @@ Whenever we are releasing a new version, the first workflow builds our packages 
 
 ### Closing Thoughts
 
-We are a small team and don't have any DevOps engineers. Github Actions allows us to deploy with confidence (I know, this is literally the slogan of every CI/CD product ever) and automate more workflows at a cheaper price than any of its competitors.
+We are a small team without any DevOps engineers. Github Actions allows us to deploy with confidence (I know, this is literally the slogan of every CI/CD product ever) and automate more workflows at a cheaper price than any of its competitors.
 
 ⚡️
