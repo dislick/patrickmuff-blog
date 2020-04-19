@@ -19,14 +19,14 @@ This particular function was used as a callback in a lot of calls to `Array.prot
 ### Helper Functions
 
 ```typescript
-export function mapAsync<T1, T2>(
+function mapAsync<T1, T2>(
   array: T1[],
   callback: (value: T1, index: number, array: T1[]) => Promise<T2>,
 ): Promise<T2[]> {
   return Promise.all(array.map(callback));
 }
 
-export async function filterAsync<T>(
+async function filterAsync<T>(
   array: T[],
   callback: (value: T, index: number, array: T[]) => Promise<boolean>,
 ): Promise<T[]> {
@@ -38,34 +38,39 @@ export async function filterAsync<T>(
 ### Usage
 
 ```typescript
-// Your async function. In this example we just delay execution
-// for a number of milliseconds before resolving.
-function wait(delay: number) {
-  return new Promise(resolve => setTimeout(resolve, delay));
+async function getAge(personId: number) {
+  const response = await fetch('/api/person/' + personId);
+  return (await response.json()).age;
 }
 
-const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const people = [
+  { id: 1, name: 'Emma' },
+  { id: 2, name: 'Sophia' },
+  { id: 3, name: 'Michael' },
+];
 
-const result = await filterAsync(array, async num => {
-  await wait(1000);
-  return num % 2 === 0;
+const result = await filterAsync(people, async person => {
+  return (await getAge(person.id)) >= 21;
 });
 
-// `result` is [ 0, 2, 4, 6, 8 ] after ~1000ms
+// `result` now contains only people over the age of 21
 ```
 
-That's a lot more readable when you consider the alternative is something like this.
+That's a lot more readable when you consider the alternative is something like this:
 
 ```typescript
-const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const people = [
+  { id: 1, name: 'Emma' },
+  { id: 2, name: 'Sophia' },
+  { id: 3, name: 'Michael' },
+];
 
 const filterMap = await Promise.all(
-  array.map(async num => {
-    await wait(1000);
-    return num % 2 === 0;
+  people.map(async person => {
+    return (await getAge(person.id)) >= 21;
   }),
 );
-const result = array.filter((_, index) => filterMap[index]);
+const result = people.filter((_, index) => filterMap[index]);
 ```
 
 Not only does it take more time to understand what's going on, it also adds the variable `filterMap` to your current scope. This could be circumvented by wrapping it in a code block, but that would add even more visual clutter.
